@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:1200px){
+    /* Desktop, large screen  */
+    body{
+        background-color:lightblue;
+    }
+}
+
+@media screen and (max-width:1024px){
+/* Small screen and Laptop */
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (max-width:768px){
+/* ipad, tablet */
+    body{
+        background-color:gray;
+    }
+}
+
+@media screen and (max-width:576px){
+/* for mobile device */
+    body{
+        background-color:mediumseagreen;
+    }
+
+    .card{
+        width:100%;
+        margin-top:25px;
+    }
+
+    .sec1 h1{
+        text-align:center;
+    }
+
+    .half-width{
+        width:100%;
+    }
+
+}
