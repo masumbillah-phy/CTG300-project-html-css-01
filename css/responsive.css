@@ -31,6 +31,14 @@
         background-color:mediumseagreen;
     }
 
+    /* sec1 */
+    .half-width h1 {
+        font-weight: 700;
+        font-size: 40px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+
     .card{
         width:100%;
         margin-top:25px;
@@ -44,4 +52,9 @@
         width:100%;
     }
 
+    /* Footer section */
+    footer h2{
+        font-size: 29px;
+        margin-bottom: 15px;
+    }
 }

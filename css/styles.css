@@ -31,10 +31,10 @@
     width: 100%;
 }
 
-#btn{
+ #btn{
     padding: 10px 20px;
     background-image: linear-gradient(to right,red, yellow);
-    margin-top: 20px;
+    margin-top: 30px;
     color: white;
     text-transform: uppercase;
     border-radius: 10px;
