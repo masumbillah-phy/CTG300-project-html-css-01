@@ -1,42 +1,51 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 @media screen and (max-width:1200px){
     /* Desktop, large screen  */
-    body{
-        background-color:lightblue;
-    }
+  
 }
 
 @media screen and (max-width:1024px){
 /* Small screen and Laptop */
-    body{
-        background-color: red;
-    }
+  .sec1 .half-width h1{
+    font-size: 33px;
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width:768px){
 /* ipad, tablet */
-    body{
-        background-color:gray;
-    }
+.sec1 .half-width h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width:576px){
 /* for mobile device */
-    body{
-        background-color:mediumseagreen;
-    }
+ 
 
     /* sec1 */
     .half-width h1 {
         font-weight: 700;
-        font-size: 40px;
+        font-size: 35px;
         text-transform: uppercase;
         margin-bottom: 20px;
+    }
+
+    /* sec2 */
+    .sec2 h1{
+        font-size: 30px;
+    }
+
+    .sec3 .half-width h2{
+        font-size: 21px;
+    }
+
+
+    /* sec4 above */
+    #mobile-application{
+        font-size: 30px;
     }
 
     .card{
@@ -54,7 +63,7 @@
 
     /* Footer section */
     footer h2{
-        font-size: 29px;
+        font-size: 28px;
         margin-bottom: 15px;
     }
 }
