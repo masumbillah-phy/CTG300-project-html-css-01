@@ -2,7 +2,10 @@
 
 @media screen and (max-width:1200px){
     /* Desktop, large screen  */
-  
+  .half-width h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width:1024px){
@@ -15,25 +18,39 @@
 
 @media screen and (max-width:768px){
 /* ipad, tablet */
-.sec1 .half-width h1{
+ .sec1 .half-width h1{
     font-size: 25px;
-    margin-bottom: 20px;
-  }
+ }
+
+ .half-width img{
+    height: 350px
+ }
+
+ .card{
+    width: 100%;
+    height: 350px;
+    margin-top: 40px;
+    padding: 50px;
+ }
 }
+
+
 
 @media screen and (max-width:576px){
 /* for mobile device */
- 
-
-    /* sec1 */
-    .half-width h1 {
-        font-weight: 700;
-        font-size: 35px;
-        text-transform: uppercase;
-        margin-bottom: 20px;
+    
+    main p{
+        font-size: 25px;
     }
 
-    /* sec2 */
+    .sec1 .half-width img{
+        margin-top: 35px;
+    }
+
+    .sec3 .half-width h2{
+        font-size: 60px;
+        margin-top: 30px;
+    }
     .sec2 h1{
         font-size: 30px;
     }
@@ -42,15 +59,23 @@
         font-size: 21px;
     }
 
-
-    /* sec4 above */
     #mobile-application{
         font-size: 30px;
     }
 
+    .sec4 .half-width img{
+        width: 100%;
+        margin-top: 35px;
+    }
+
+    .sec5 .half-width img{
+        margin-bottom: 35px;
+    }
     .card{
         width:100%;
-        margin-top:25px;
+        height: 500px;
+        margin-top:35px;
+        padding: 50px;
     }
 
     .sec1 h1{
@@ -59,6 +84,10 @@
 
     .half-width{
         width:100%;
+    }
+
+    .half-width p{
+        font-size: 30px;
     }
 
     /* Footer section */
